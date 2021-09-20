@@ -1,12 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap');
 
 html {
-    font-family: 'Gluten', cursive;
+    font-family: 'M PLUS 1p', sans-serif;
     font-weight: bolder;
     background-color: #222;
     color: #fff;
 }
 
-h5 {
+
+::selection {
+    background-color: #555;
+    color: #26a69a;
+}
+
+/* .header {
+    
+} */
+
+code {
+    border-bottom: 1px solid #26a69a;;
+    
+}
+code:hover {
+    color: #26a69a;;
+}
+
+h1 {
+    width: auto;
+}
+a {
     color: #333;
+}
+
+h5 {
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+::placeholder {
+    color: #26a69a;;
+}
+
+
+li {
+    background-color: #999 !important;
 }
